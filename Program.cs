@@ -23,16 +23,16 @@ namespace JurassicPark
         public void Description()
         {
             Console.WriteLine($"{Name} was acquired {WhenAcquired} and is a {DietType}. {Name} is in enclosure number {EnclosureNumber} and weights {Weight}");
-
         }
-
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to C#");
+            DinoGreeting greet = new DinoGreeting();
+            greet.Greeting();
+
         }
     }
 }
