@@ -21,7 +21,7 @@ namespace JurassicPark
 
         public void Description()
         {
-            Console.WriteLine($"{Name} was acquired {WhenAcquired} and is a {DietType}. {Name} is in enclosure number {EnclosureNumber} and weights {Weight}");
+            Console.WriteLine($"{Name} was acquired {WhenAcquired} and is a {DietType}. {Name} is in enclosure number {EnclosureNumber} and weights {Weight} pounds.");
         }
     }
 }
